@@ -1,0 +1,10 @@
+id...0oa881sg58Ijlw7rM5d7
+secreet...fgmtSKP-6bYDGzQ6Sz9MG72bvjxLxy4eJPPo_9yn
+api..https://dev-49191968.okta.com/oauth2/default
+
+
+schematics @oktadev/schematics:add-auth --issuer=https://dev-49191968.okta.com/oauth2/default \
+  --clientId=0oa881sg58Ijlw7rM5d7 --clientSecret=fgmtSKP-6bYDGzQ6Sz9MG72bvjxLxy4eJPPo_9yn
+
+  schematics @oktadev/schematics:add-auth --issuer=https://dev-49191968.okta.com/oauth2/default \
+  --client-id=0oa881sg58Ijlw7rM5d7--client-secret=fgmtSKP-6bYDGzQ6Sz9MG72bvjxLxy4eJPPo_9yn --auth0
